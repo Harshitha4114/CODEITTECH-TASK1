@@ -33,7 +33,7 @@ Technologies Used:
 
 
   CODE:
-  [5:58 pm, 10/11/2024] Harshitha: # Basic Calculator
+ # Basic Calculator
 
 def add(x, y):
     return x + y
@@ -86,24 +86,8 @@ def calculator():
     else:
         print("Invalid operation! Please select a valid option.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     calculator()
-[5:58 pm, 10/11/2024] Harshitha: # Simple Student Grade Tracker
-
-def calculate_average(grades):
-    """Calculates the average of the grades"""
-    if not grades:
-        return 0
-    return sum(grades) / len(grades)
-
-def determine_letter_grade(average):
-    """Determines the letter grade based on the average score"""
-    if average >= 90:
-        return 'A'
-    elif average >= 80:
-        return 'B'
-    elif average >= 70:
-        return 'C'
 
 
 
